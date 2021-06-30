@@ -5,10 +5,10 @@ var menuState = {
 			this.music.volume = .5;
 			this.music.play();
 
-		var textlabirinto = game.add.text(game.world.centerX,150,'FAEL GAME',{font: '40px emulogic', fill:'#fff' });
+		var textlabirinto = game.add.text(game.world.centerX,150,'MAZE DASH RUNNER',{font: '40px emulogic', fill:'#fff' });
 			textlabirinto.anchor.set(.5);
 
-			var txtPressStart = game.add.text(game.world.centerX,550, 'PRESS START', {font: '20px emulogic', fill:'#fff'})
+			var txtPressStart = game.add.text(game.world.centerX,550, 'PRESS ENTER', {font: '20px emulogic', fill:'#fff'})
 			txtPressStart.anchor.set(.5);
 
 			game.add.tween(txtPressStart).to({y:250},1000).start();	
